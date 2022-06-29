@@ -276,7 +276,7 @@ class HPP_CORE_DLLAPI Roadmap {
 
   /// Merge two connected components
   /// \param cc1 the connected component to merge into
-  /// \param the connected components to merge into cc1.
+  /// \param ccs the connected components to merge into cc1.
   void merge(const ConnectedComponentPtr_t& cc1,
              ConnectedComponent::RawPtrs_t& ccs);
 
